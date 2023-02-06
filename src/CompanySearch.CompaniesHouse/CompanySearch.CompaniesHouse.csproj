@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="spec\swagger.json" />
+    <None Remove="spec\spec.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <OpenApiReference Include="spec\swagger.json" Namespace="CompanySearch.CompaniesHouse" ClassName="Client">
+    <OpenApiReference Include="spec\spec.json" Namespace="CompanySearch.CompaniesHouse" ClassName="CompanyHouseClient">
       <CodeGenerator>NSwagCSharp</CodeGenerator>
     </OpenApiReference>
   </ItemGroup>

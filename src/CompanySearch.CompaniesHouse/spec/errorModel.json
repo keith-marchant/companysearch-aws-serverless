@@ -58,7 +58,7 @@
         "error_values": {
             "title": "error_values",
             "properties": {
-                "<argument>": {
+                "argument": {
                     "type": "string",
                     "description": "The element name and value pair required to complete the error description, will repeat as necessary."
                 }
