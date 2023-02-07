@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanySearch.Api", "src\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanySearch.CompaniesHouse", "src\CompanySearch.CompaniesHouse\CompanySearch.CompaniesHouse.csproj", "{32B74FE0-90F8-46FC-BF8E-387A96BE1AAF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{00EDCA4C-A8D1-473B-B178-C1110854BEB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanySearch.CompaniesHouse.IntegrationTests", "test\CompanySearch.CompaniesHouse.IntegrationTests\CompanySearch.CompaniesHouse.IntegrationTests.csproj", "{5867081F-5429-4514-9B95-293AD1806164}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +30,14 @@ Global
 		{32B74FE0-90F8-46FC-BF8E-387A96BE1AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32B74FE0-90F8-46FC-BF8E-387A96BE1AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32B74FE0-90F8-46FC-BF8E-387A96BE1AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5867081F-5429-4514-9B95-293AD1806164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5867081F-5429-4514-9B95-293AD1806164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5867081F-5429-4514-9B95-293AD1806164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5867081F-5429-4514-9B95-293AD1806164}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FDBAAD75-C4B3-468A-9281-4C1530F7B919} = {34B0101F-6C87-422D-88F4-D1AE48CBEDA8}
 		{32B74FE0-90F8-46FC-BF8E-387A96BE1AAF} = {34B0101F-6C87-422D-88F4-D1AE48CBEDA8}
+		{5867081F-5429-4514-9B95-293AD1806164} = {00EDCA4C-A8D1-473B-B178-C1110854BEB8}
 	EndGlobalSection
 EndGlobal
