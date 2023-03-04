@@ -5,21 +5,22 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{34B0101F-6C87-422D-88F4-D1AE48CBEDA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanySearch.Api", "src\CompanySearch.Api\CompanySearch.Api.csproj", "{FDBAAD75-C4B3-468A-9281-4C1530F7B919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanySearch.Api", "src\CompanySearch.Api\CompanySearch.Api.csproj", "{FDBAAD75-C4B3-468A-9281-4C1530F7B919}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanySearch.CompaniesHouse", "src\CompanySearch.CompaniesHouse\CompanySearch.CompaniesHouse.csproj", "{32B74FE0-90F8-46FC-BF8E-387A96BE1AAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanySearch.CompaniesHouse", "src\CompanySearch.CompaniesHouse\CompanySearch.CompaniesHouse.csproj", "{32B74FE0-90F8-46FC-BF8E-387A96BE1AAF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{00EDCA4C-A8D1-473B-B178-C1110854BEB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanySearch.CompaniesHouse.IntegrationTests", "test\CompanySearch.CompaniesHouse.IntegrationTests\CompanySearch.CompaniesHouse.IntegrationTests.csproj", "{5867081F-5429-4514-9B95-293AD1806164}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanySearch.CompaniesHouse.IntegrationTests", "test\CompanySearch.CompaniesHouse.IntegrationTests\CompanySearch.CompaniesHouse.IntegrationTests.csproj", "{5867081F-5429-4514-9B95-293AD1806164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanySearch.Core", "src\CompanySearch.Core\CompanySearch.Core.csproj", "{2ACCD3DB-C880-49EE-A9F8-AF86D693445D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanySearch.Core.UnitTests", "test\CompanySearch.Core.UnitTests\CompanySearch.Core.UnitTests.csproj", "{F0737CB9-8246-40EA-BAE6-F7C493A9055C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FDBAAD75-C4B3-468A-9281-4C1530F7B919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -34,10 +35,23 @@ Global
 		{5867081F-5429-4514-9B95-293AD1806164}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5867081F-5429-4514-9B95-293AD1806164}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5867081F-5429-4514-9B95-293AD1806164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACCD3DB-C880-49EE-A9F8-AF86D693445D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACCD3DB-C880-49EE-A9F8-AF86D693445D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACCD3DB-C880-49EE-A9F8-AF86D693445D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACCD3DB-C880-49EE-A9F8-AF86D693445D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0737CB9-8246-40EA-BAE6-F7C493A9055C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0737CB9-8246-40EA-BAE6-F7C493A9055C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0737CB9-8246-40EA-BAE6-F7C493A9055C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0737CB9-8246-40EA-BAE6-F7C493A9055C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FDBAAD75-C4B3-468A-9281-4C1530F7B919} = {34B0101F-6C87-422D-88F4-D1AE48CBEDA8}
 		{32B74FE0-90F8-46FC-BF8E-387A96BE1AAF} = {34B0101F-6C87-422D-88F4-D1AE48CBEDA8}
 		{5867081F-5429-4514-9B95-293AD1806164} = {00EDCA4C-A8D1-473B-B178-C1110854BEB8}
+		{2ACCD3DB-C880-49EE-A9F8-AF86D693445D} = {34B0101F-6C87-422D-88F4-D1AE48CBEDA8}
+		{F0737CB9-8246-40EA-BAE6-F7C493A9055C} = {00EDCA4C-A8D1-473B-B178-C1110854BEB8}
 	EndGlobalSection
 EndGlobal
